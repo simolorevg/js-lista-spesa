@@ -1,8 +1,9 @@
-
-const productList = document.getElementById('productList');//prendo la lista non ordinata
-let productIndex = 0;
-submitBtn.addEventListener('click', function(){
-    productList.innerHTML+=`<li>${userProduct}</li>`;
-    //finche l'elemento non è presente, lo aggiungo nella lista
-    //altrimenti non lo metto
-});
+const listArray = ['pane','salame','uova','fruttini'];
+const productList = document.getElementById('product-list'); //prendo la lista non ordinata
+let i = 0;
+console.log(listArray.length);
+while(i < listArray.length){
+    productList.innerHTML+=`<li>${listArray[i]}</li>`;
+    console.log(listArray[i]);
+    i++;
+}
