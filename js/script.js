@@ -1,4 +1,4 @@
-const listArray = ['pane','salame','uova','fruttini','Coca Cola'];//array lista spesa
+const listArray = ['pane','salame','uova','fruttini','cochina bella fresca'];//array lista spesa
 const productList = document.getElementById('product-list'); //prendo la lista non ordinata
 let i = 0;//contatore
 console.log(listArray.length);
